@@ -11,7 +11,7 @@ The R script, run_analysis.R, does the following:
 8. Creating a new data set called tidyData with the average of each variable for each activity and each subject. Grouped the data set by      subject then by activity.
 9. Saving the tidyData output as txt file.
 
-The end result is tideData.txt file
+The end result is tidyData.txt file
 
 This repo contains the following files:  
 * CodeBook.md  
