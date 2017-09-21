@@ -12,3 +12,9 @@ The R script, run_analysis.R, does the following:
 9. Saving the tidyData output as txt file.
 
 The end result is tideData.txt file
+
+This repo contains the following files:  
+* CodeBook.md  
+* README.md  
+* run_analysis.R  
+* tidyData.txt
