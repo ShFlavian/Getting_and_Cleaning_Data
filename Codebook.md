@@ -1,12 +1,12 @@
-#Code Book
+# Code Book
 This code book explains the actions performed and the resulting data and variables.
 
-##Data source
+## Data source
 The data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-##Pre-requisite: 
+## Pre-requisite: 
 The following files are already downloaded and exist in the working directory.
 •	activity_labels.txt
 •	features.txt
@@ -19,7 +19,7 @@ The following files are already downloaded and exist in the working directory.
 
 
 
-##Data variables
+## Data variables
 Names:	subject 
 Description: the ID of the test subject.	
 Values: 1 to 30
