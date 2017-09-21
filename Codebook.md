@@ -1,11 +1,11 @@
-Code Book
+# Code Book
 This code book explains the actions performed and the resulting data and variables.
 
-Data source:
+## Data source:
 The data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Pre-requisite: 
+## Pre-requisite: 
 The following files are already downloaded and exist in the working directory.
 activity_labels.txt
 features.txt
@@ -17,14 +17,18 @@ X_train.txt
 y_train.txt
 
 
-Data variables
-Identifiers:
-subject - 	The ID of the test subject.  Values: 1 to 30
-activity - 	The type of activity performed when the corresponding measurements were taken.
-	Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,STANDING, LAYING
+## Data variables:
+Name: subject
+Description: the ID of the test subject.  
+Values: 1 to 30
+
+Name: activity 
+Description: The type of activity performed when the corresponding measurements were taken.
+Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,STANDING, LAYING
 
 
-Measurements columns: The average of each variable for each activity and each subject for the mean and standard deviations.
+Measurements columns: see list below 
+Description: the average of each variable for each activity and each subject for the mean and standard deviations.
 features data set contains duplicated values. This will result in error message when using select(). I have decided to rename the columns pasting the ID to the measurment name
 1.tbodyaccmeanx	
 2.tbodyaccmeany	
@@ -111,7 +115,4 @@ features data set contains duplicated values. This will result in error message 
 504.fbodyaccmagstd 
 517.fbodybodyaccjerkmagstd 
 530.fbodybodygyromagstd 
-543.fbodybodygyrojerkmagstd 	
-
-
-
+543.fbodybodygyrojerkmagstd
