@@ -10,3 +10,5 @@ The R script, run_analysis.R, does the following:
 7. Saving rawData, meanStdDataSet data output in CSV file
 8. Creating a new data set called tidyData with the average of each variable for each activity and each subject. Grouped the data set by      subject then by activity.
 9. Saving the tidyData output as txt file.
+
+The end result is tideData.txt file
